@@ -13,7 +13,7 @@ class HomeOne extends Component{
                        <h1>{h1one}</h1>
                        <ul>
                         <li>
-                            
+                            <h1>Salom</h1>
                         </li>
                        </ul>
                     </div>
