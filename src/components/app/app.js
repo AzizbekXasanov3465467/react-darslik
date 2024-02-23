@@ -1,25 +1,16 @@
-import { Component } from "react";
-import Appfilter from '../app-filter/app-filter'
-import Appinfo from '../app-info/app-info'
-import Moveaddfrom from '../move-add-from/move-add-form'
+
+import Appfilter from '../home/app-filter'
+import Appinfo from '../about/app-info'
+import Moveaddfrom from '../navbar/move-add-form'
 import Movelist from '../move-list/move-list'
-import Movelistitem from '../move-list-item/move-list-item'
+import Movelistitem from '../contact/move-list-item'
 import Seepanel from '../search-panel/search-panel'
 
-class App extends Component {
- 
-    render() {
-        return(
-            <div>
-               <Appfilter />
-               <Appinfo />
-               <Moveaddfrom />
-               <Movelistitem />
-               <Movelist />
-               <Seepanel />
-           
-            </div>
-        )
-    }
+const App = () => {
+return <div className="app font">
+    <Appfilter />
+
+</div>
+    
 }
 export default App
